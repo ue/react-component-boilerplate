@@ -10,7 +10,7 @@ You can change developer name, projecet name etc. in `package.json`
 1. `cd react-component-boilerplate`
 2. `rm -rf .git` (or in Windows `rmdir .git /S /Q`) - Remove Git database
 3. `npm run build` - For build your component
-4. `npm run link .` - For link manually instead of install 
+4. `npm link` - For link manually instead of install 
 
 Thats all your component ready to use so you should test with a test project.
 
