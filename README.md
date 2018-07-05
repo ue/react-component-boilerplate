@@ -14,18 +14,18 @@ You can change developer name, projecet name etc. in `package.json`
 
 Thats all your component ready to use so you should test with a test project.
 
-### How to test:
+### How to test for your component:
 
-1. `npm i -g create-react-app"` - For test project
-2. `mkdir test_project"` - For creating a folder
-3. `cd test_project"` - Go to folder
-4. `create-react-app ."` - Create a react project
-5. `npm install"` - Install dependency
-6. `npm link your_component_name"` - Connect to test project (make sure the component inside the node_modules)
+1. `npm i -g create-react-app` - For test project
+2. `mkdir test_project` - For creating a folder
+3. `cd test_project` - Go to folder
+4. `create-react-app .` - Create a react project
+5. `npm install` - Install dependency
+6. `npm link your_component_name` - Connect to test project (make sure the component inside the node_modules)
 7. Go to `src/App.js`
 8. import your component `import YourComponent from 'react-component';`
 9. just call it `<YourComponent/>`
-10. `npm start"` - Run it
+10. `npm start` - Run it
 
 Now you can see your component on test project.
 
@@ -38,5 +38,5 @@ Now you can see your component on test project.
 
 ## License
 
-*react-component-boilerplate* is available under MIT. See LICENSE for more details.
+*react-component-boilerplate* is available under MIT.
 
